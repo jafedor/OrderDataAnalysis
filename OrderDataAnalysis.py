@@ -5,26 +5,17 @@ import pprint
 
 # Excel example data from https://www.contextures.com/xlsampledata01.html
 
-r = requests.get('https://api.github.com/repos/jafedor/OrderDataAnalysis/zipball/main')
+r = requests.get('https://raw.githubusercontent.com/jafedor/OrderDataAnalysis/main/ListOfOrders/ItemOrderData.xlsx')
 print(r.status_code)
 # print(r.headers)
 # print(r.content)
 
-file_name = "datafile.zip"
+file_name = "ItemOrderData.xlsx"
 
 with open(file_name, 'wb') as out:
     out.write(r.content)
 
-with ZipFile(file_name, 'r') as zip:
-    # printing all the contents of the zip file
-    zip.printdir()
-
-    # extracting all the files
-    print('Extracting all the files now...')
-    zip.extractall()
-    print('Done!')
-
-excel_data_df = pandas.read_excel('jafedor-OrderDataAnalysis-205f624/ItemOrderData.xlsx', sheet_name='Orders')
+excel_data_df = pandas.read_excel('ItemOrderData.xlsx', sheet_name='Orders')
 
 
 # Prints the name of the person who spent the most and their total spent
