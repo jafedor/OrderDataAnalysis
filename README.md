@@ -2,12 +2,12 @@
 
 This is a Python program I wrote myself for my own personal practice with a variety of concepts. 
 
-The concepts I demonstrate in this program (in order) are the following:
+The main concepts I demonstrate in this program (in order) are the following:
   1) Using GitHub's API to download repo content by making an HTTP GET request
-  2) Extracting from a zip file
-  3) File reading and writing
-  4) Using the Pandas Python module to grab data from an Excel spreadsheet and parse it
-  5) Using dictionaries and loops to process & analyze data
+  2) File reading and writing
+  3) Using the Pandas Python module to grab data from an Excel spreadsheet and parse it
+  4) Using dictionaries and loops to process & analyze data
+  5) Problem-solving and critical thinking in a coding mindset
 
 -------------------------------------------------
 
@@ -18,7 +18,7 @@ from https://www.contextures.com/xlsampledata01.html.
 The sheet tracks 7 attributes for each order placed:
   1) the date the order was placed
   2) the region the order originated from
-  3) the name of the person who placed the order
+  3) the name of the person who placed the order (the same person can make multiple different orders)
   4) the item ordered
   5) the number of units ordered
   6) the cost per unit for the order
