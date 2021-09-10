@@ -8,6 +8,7 @@ The main concepts I demonstrate in this program (in order) are the following:
   3) Using the Pandas Python module to grab data from an Excel spreadsheet and parse it
   4) Using dictionaries and loops to process & analyze data
   5) Problem-solving and critical thinking in a coding mindset
+  6) The ability to write clean and well-documented code
 
 -------------------------------------------------
 
