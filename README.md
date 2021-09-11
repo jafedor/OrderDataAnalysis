@@ -1,4 +1,4 @@
-# OrderDataAnalysis
+# Python Excel Spreadsheet Analyzer
 
 This is a Python program I wrote myself for my own personal practice with a variety of concepts. 
 
