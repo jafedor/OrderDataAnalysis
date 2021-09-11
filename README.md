@@ -33,4 +33,5 @@ These are the two questions I chose to explore and answer with my code:
   1) "Who spent the most money in total?"
   2) "What was the most popular item ordered in each region?" 
      (with popularitiy being defined as having the highest number of units purchased for all time).
+
 The answers to both questions are printed out in the console.
